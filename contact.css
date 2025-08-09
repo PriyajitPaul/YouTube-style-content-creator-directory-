@@ -1,0 +1,97 @@
+.submit1{
+    background-color:rgb(109, 169, 236);
+    color: white;
+    border:none;
+    height: 35px;
+    width: 65px;
+    border-radius: 20px;
+    margin-left: 10px;
+    cursor:pointer;
+    transition: opacity 0.15s , box-shadow 0.15s;
+    vertical-align: middle;
+    margin-top:20px;
+
+}
+.submit1:hover{
+    opacity: 0.8;
+    box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+}
+    .submit1:active{
+        opacity: 0.5;
+        box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+    }
+    .comment,.name,.email{
+        border: none;
+        border-radius: 20px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 10px;
+        display:block;
+        margin-top: 20px;
+    }
+    .comment{
+        padding-bottom: 90px;
+    }
+    .comment:hover,.email:hover,.name:hover{
+        border: none;
+        box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+    }
+    .comment:active,.email:active,.name:active{
+        border: none;
+        box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+    }
+    p{
+        margin-left: 15px;
+        font-size: 24px;
+    }
+    .contactus{
+        display: inline-block;
+        box-shadow:2.5px 2.5px 5px rgb(41, 40, 40) ;
+        padding: 80px;
+        padding-left: 100px;
+        padding-right:100px ;
+        justify-content: center; 
+        align-items: center; 
+        width: 1fr;
+        max-width: 1000px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(116, 114, 114);
+    }
+    .login_top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+    }
+    .google, .face{
+        width: 50px;
+    }
+    .google_button , .face_button{
+        width: 50px;
+        border-radius: 50px;
+        margin-left: 10px;
+        cursor:pointer;
+        transition: opacity 0.15s , box-shadow 0.15s;
+        vertical-align: middle;
+        margin-top:20px;
+    }
+    .google_button:hover , .face_button:hover{
+        opacity: 0.8;
+        box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+    }
+    .google_button:active , .face_button:active{
+        opacity: 0.5;
+        box-shadow:2.5px 2.5px 5px rgba(0 0 0 ) ;
+    }
+    .face{
+        border-radius: 10px;
+    }
+    .login_buttom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        align-items: center; 
+    }

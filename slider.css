@@ -1,0 +1,80 @@
+.shorts_name,.video_name,.sub_name{
+    text-decoration: none;
+    color: black;
+    width: 1fr;
+    padding: 10px;
+} 
+.slider{
+    position: fixed;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 126px;
+    background-color:  rgb(181, 177, 177);
+    border-right-width: 1px;
+    border-right-color: rgb(131, 132, 132);
+    border-right-style:solid ;
+}
+.shorts_name{   
+    display: inline-block;
+    padding-left: 0;
+}
+.shorts_img{
+    width: 20px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.video_img{
+    width: 20px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.video_name{
+    display: inline-block;
+    padding-left: 0;
+}
+.sub_img{
+    width: 20px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.sub_name{
+    display: inline-block;
+    padding-left: 0;
+}
+.shorts,.video,.subscriptions,.history,.playlist,.watchlater,.likedvideo,.setting,.help,.feedback,.login,.logout{
+    padding-top: 10px;
+    position: relative;
+}
+.sub_count{
+    position: absolute;
+    background-color: rgb(124, 124, 124);
+    color: white;
+    bottom: -5px;
+    right: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    font-size: 12px;
+    }  
+.slider-top , .slider-middle{
+    padding-bottom: 10px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(131, 132, 132);
+    border-bottom-style:solid ;
+}
+.history_img,.play_img,.watch_img,.like_img,.set_img,.help_img,.feed_img,.login_img,.logout_img{
+    width: 16px;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.history_name,.play_name,.watch_name,.like_name,.set_name,.help_name,.feed_name,.login_name,.logout_name{
+    text-decoration: none;
+    color: black;
+    width: 1fr;
+    padding: 10px;
+    display: inline-block;
+    padding-left: 0;
+}
