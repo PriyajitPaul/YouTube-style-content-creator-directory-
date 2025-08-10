@@ -73,7 +73,7 @@ body{
 .profile1 .tooltip, .profile2 .tooltip,.profile3 .tooltip{
     position: absolute;
     opacity: 0;
-    bottom: -220px;
+    bottom: -200px;
     left:50px;
     pointer-events:none;
     transition: opacity 0.5s ;
@@ -84,4 +84,7 @@ body{
     position: absolute;
     pointer-events: all;
     z-index: 20;
+}
+iframe{
+    border-radius: 30px;
 }
